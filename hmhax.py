@@ -98,30 +98,12 @@ word_colors = [B, C, P, H, M, byellow, bblue, P, C, B]
 
 logo=(f'''{B}
 
-
-
-
-
-                                 
-
-
- _   _ ___  ___ _   _   ___  __   __
-| | | ||  \/  || | | | / _ \ \ \ / /
-| |_| || .  . || |_| |/ /_\ \ \ V / 
-|  _  || |\/| ||  _  ||  _  | /   \ 
-| | | || |  | || | | || | | |/ /^\ \
-\_| |_/\_|  |_/\_| |_/\_| |_/\/   \/
+HMHAXHMHAXHMHAXHMHAXHMHAXHMHAXHMHAX
+HMHAXHMHAX               HMHAXHMHAX
+HMHAXHMHAXHMH         HAXHMHAXHMHAX                              
+HMHAXHMHAXHMHAX     HMHAXHMHAXHMHAX
+HMHAXHMHAXHMHAXHMHAXHMHAXHMHAXHMHAX
                                     
-                                    
-
-                                 
-
-
-
-                                            
-
-
-
 {warna}--------------------------------------------{B}
 
  TOOL NAME : {warna}{P}HMHAX{P}{warna}
@@ -345,4 +327,3 @@ def generate_random_sequence(length):
 # Appel à la fonction HMHAX pour démarrer le programme
 
 HMHAX()
-
