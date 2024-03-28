@@ -216,7 +216,7 @@ def BD_CLONING():
 
     input(' PRESS ENTER TO BACK  : ')
 
-    MR_ITACHI()
+    HMHAX()
 
 #------------ method crack def ---------#
 
